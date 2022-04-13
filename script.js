@@ -180,7 +180,13 @@ document.addEventListener('DOMContentLoaded', function() {
         openLinkInNewWindow("http://megu.moe/gui")
         clearInput();
         break;
- 
+      
+        case "sudo":
+        case "su":
+        openLinkInNewWindow("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
+        clearInput();
+        break;
+     
         default:
         clearInput();
         addTextToResults("<p><i>Komenda " + "<b>" + textInputValue + "</b>" + " nie została znaleziona. Użyj komendy <b>Help</b> aby zobaczyć listę komend.</i></p>");
